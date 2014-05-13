@@ -61,11 +61,13 @@
     background: rgba(#000, 0.6);
     color: #fff;
     font-weight: normal;
+    
   }
 }
 .page-header{
   
-  
+    position:absolute;
+    z-index=10;
 }
 .gd-expertise{
   
