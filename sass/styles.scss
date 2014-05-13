@@ -27,7 +27,7 @@
     top: 0;
     left: 0;
     right: 0;
-    
+    z-index=10;
     background: $body-bg;
     @include box-shadow(0 0 16px rgba(0, 0, 0, 0.15));
      h1{
@@ -39,7 +39,7 @@
     }
         + *{
        margin-top: 126px;
-       z-index=10;
+       
      }
   }
 }
