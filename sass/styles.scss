@@ -14,7 +14,7 @@
 .gd-header{
   //
   // Practice 2, Practice 4.
-  z-index=-1;
+  
   text-align:center;
   ul li{
   display:inline;
@@ -27,7 +27,7 @@
     top: 0;
     left: 0;
     right: 0;
-
+    z-index=10;
     background: $body-bg;
     @include box-shadow(0 0 16px rgba(0, 0, 0, 0.15));
      h1{
