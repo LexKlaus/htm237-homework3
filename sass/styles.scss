@@ -32,12 +32,13 @@
     @include box-shadow(0 0 16px rgba(0, 0, 0, 0.15));
      h1{
       display: none;
+        z-index=10;
     }
 
     ul{
       margin-top: 1em;
       position:absolute;
-      z-index=10;
+    
     }
         + *{
        margin-top: 126px;
