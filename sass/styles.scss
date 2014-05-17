@@ -24,9 +24,12 @@
   &.affix{
     // The next element should have a top-margin so that the entire page
     // dont jump high when .affix is applied.
-    top: 0;
-    left: 0;
-    right: 0;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
 
     background: $body-bg;
     @include box-shadow(0 0 16px rgba(0, 0, 0, 0.15));
