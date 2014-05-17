@@ -24,6 +24,7 @@
   &.affix{
     // The next element should have a top-margin so that the entire page
     // dont jump high when .affix is applied.
+<<<<<<< HEAD
     position: fixed;
     right: 0px;
     left: 0px;
@@ -31,17 +32,27 @@
     background-color: white;
     z-index: 1;
 
+=======
+    top: 0;
+    left: 0;
+    right: 0;
+    
+>>>>>>> aa48e4560b4533d84392315fb383b69ab5a1e32b
     background: $body-bg;
     @include box-shadow(0 0 16px rgba(0, 0, 0, 0.15));
      h1{
       display: none;
+        z-index=10;
     }
 
     ul{
       margin-top: 1em;
+      position:absolute;
+    
     }
         + *{
        margin-top: 126px;
+       
      }
   }
 }
@@ -60,10 +71,13 @@
     background: rgba(#000, 0.6);
     color: #fff;
     font-weight: normal;
+    
   }
 }
 .page-header{
   
+    position:absolute;
+    z-index=10;
 }
 .gd-expertise{
   
@@ -87,6 +101,7 @@
 .gd-well{
   
   margin: 5em 0;
+  z-index=-4;
   h3{
     margin-top: 0;
   }
