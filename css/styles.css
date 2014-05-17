@@ -1782,7 +1782,6 @@ a.bg-danger:hover {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eeeeee;
-  z-index=10;
 }
 
 /* line 145, ../../../Ruby200/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
@@ -7931,14 +7930,10 @@ button.close {
 /* line 59, ../sass/styles.scss */
 .gd-well {
   margin: 5em 0;
-  
-  z-index=10;
 }
 /* line 61, ../sass/styles.scss */
 .gd-well h3 {
   margin-top: 0;
-  z-index=-4;
-
 }
 /* line 64, ../sass/styles.scss */
 .gd-well p {
